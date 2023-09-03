@@ -1,6 +1,13 @@
 # GUIHighlighter
 A small tool that highlights leaf level GUI-components in an Android application screenshot by parsing and processing metadata (in the form of xml files) that describes the hierarchical screen structure
-![Before](before.png) ![After](after.png) 
+!<div style="float: left;">
+    <img src="before.png" alt="Image 1" width="25%">
+</div>
+<div style="float: left;">
+    <img src="after.png" alt="Image 2" width="25%">
+</div>
+<div style="clear: both;"></div>
+[Before](before.png) ![After](after.png) 
 
 ## Requirements
 Must use Python3 
@@ -9,13 +16,18 @@ In order to run this code you will have to install the following librarie
 
 ## How to run
 Using terminal, type in the following command :
+
+
 -python3 main.py input.xml output.png
+
+
 ![Example](example.png) 
 
 Ensure you use files from the same set when using inputs from the data file 
 
 ## Description of Implementation 
 Use of Pillow was due to it's simple nature, and vast documentation 
+
 Use of ElementTree was due to it's versitility and vast documentation
 
 
