@@ -16,7 +16,8 @@ def main():
     root = tree.getroot() # Store root of tree
     leaf_nodes = find_leaf_nodes(root) # Find all leaf nodes 
     
-    print(leaf_nodes)
+    for node in leaf_nodes:
+        print(node.get("bounds"))
 
 if __name__ == "__main__":
     main()
