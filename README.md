@@ -1,13 +1,14 @@
 # GUIHighlighter
 A small tool that highlights leaf level GUI-components in an Android application screenshot by parsing and processing metadata (in the form of xml files) that describes the hierarchical screen structure
 <div style="display: flex; justify-content: space-between;">
-    <img src="before.png" alt="Image 1" width="25%">
-    <img src="after.png" alt="Image 2" width="25%">
+    <img src=".rm_img/before.png" alt="Image 1" width="25%">
+    <img src=".rm_img/after.png" alt="Image 2" width="25%">
 </div>
 
 ## Requirements
 Must use Python3 
-In order to run this code you will have to install the following librarie
+
+In order to run this code you will have to install the following library
 - PIL ( Pillow )
 
 ## How to run
@@ -17,7 +18,7 @@ Using terminal, type in the following command :
 -python3 main.py input.xml output.png
 
 
-![Example](example.png) 
+![Example](.rm_img/example.png) 
 
 Ensure you use files from the same set when using inputs from the data file 
 
@@ -31,6 +32,6 @@ This program works by first reading the xml file and finding the leaf nodes.
 Then using this information, and PIL, we draw on the image
 
 
-This is done by recursivly searching the xml file, finding all the leaf nodes and storing them in a list 
-Next we itterate through this list and by using regular expressions store the coordinates of where these components are 
+This is done by recursivly searching the xml file, finding all the leaf nodes and storing them in a list.
+Next we itterate through this list and by using regular expressions store the coordinates of where these components are.
 Finally we use these coordinates to highlight the gui components. 
