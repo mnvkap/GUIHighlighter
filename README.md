@@ -1,13 +1,9 @@
 # GUIHighlighter
 A small tool that highlights leaf level GUI-components in an Android application screenshot by parsing and processing metadata (in the form of xml files) that describes the hierarchical screen structure
-!<div style="float: left;">
-    <img src="before.png" alt="Image 1" width="25%">
+<div style="display: flex; justify-content: space-between;">
+    <img src="before.png" alt="Image 1" width="45%">
+    <img src="after.png" alt="Image 2" width="45%">
 </div>
-<div style="float: left;">
-    <img src="after.png" alt="Image 2" width="25%">
-</div>
-<div style="clear: both;"></div>
-[Before](before.png) ![After](after.png) 
 
 ## Requirements
 Must use Python3 
