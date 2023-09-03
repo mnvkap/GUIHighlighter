@@ -23,6 +23,7 @@ def main():
         draw_highlight(image, x1, y1, x2, y2)
 
     image.save("output_image.png") 
+    image.show() 
 
 if __name__ == "__main__":
     main()
