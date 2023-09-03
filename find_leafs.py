@@ -11,13 +11,3 @@ def find_leaf_nodes(node):
 
     return leaf_nodes
 
-def main(): 
-    tree = ET.parse(sys.argv[1]) # Create ET object 
-    root = tree.getroot() # Store root of tree
-    leaf_nodes = find_leaf_nodes(root) # Find all leaf nodes 
-    
-    for node in leaf_nodes:
-        print(node.get("bounds"))
-
-if __name__ == "__main__":
-    main()
